@@ -1,0 +1,39 @@
+body{
+    overflow: hidden;
+}
+
+
+.mainDiv{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outerDiv{
+    height: 420px;
+    width: 420px;
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    background-color: lightcoral;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.innerDiv{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    transition: linear 1s;
+}
+
+.innerDiv p {
+    margin-top: 12px;
+}

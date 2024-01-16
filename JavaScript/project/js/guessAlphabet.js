@@ -40,6 +40,10 @@ function check() {
         "Z"
     ];
 
+    // if () {
+        
+    // }
+
 
     const upperCaseAlphbet = inputAlphabet.toUpperCase();
     const userAlphabetValue = alphabet.indexOf(upperCaseAlphbet);
